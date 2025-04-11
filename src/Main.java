@@ -5,8 +5,7 @@ public class Main {
         int age = 30;
         if (age >= 18) {
             System.out.println("Cовершеннолетний");
-        }
-        if (age < 18) {
+        } else {
             System.out.println("Не достиг совершеннолетия, нужно немного подождать");
         }
         System.out.println("____________________");
